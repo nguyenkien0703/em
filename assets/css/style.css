@@ -1,0 +1,242 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    /* font-family: 'Pacifico', sans-serif; */
+}
+body,
+html{
+    width: 100%;
+    height: 90%;
+    cursor: url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;
+
+}
+a:hover {
+    cursor: url("https://1.bp.blogspot.com/-nYv2dLl3oXY/YL9utYBCh8I/AAAAAAAAFtA/wII4lVw5w4k-4isGMY41heTqk8U4TJujgCLcBGAsYHQ/s0/mouse-f2.png"), auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.mt-16 {
+    margin-top: 16px !important;
+}
+.mt-8 {
+    margin-top: 8px !important;
+}
+.pull-right {
+    float: right ;
+}
+h1,
+h2{
+    color: aliceblue;;
+    font-weight: bold;
+}
+
+.container-final{
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 950% 950%;
+    animation: gradient 15s ease infinite;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.text-content{
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    text-align: center;
+}
+
+
+.text-heading{
+    font-size:  45px;;  
+    margin-top: 16px;;
+
+}
+
+
+.text-description{
+    font-size: 40px;
+    margin-top: 16px;
+        
+}
+
+
+.text-final{
+    font-size: 40px;
+    margin-top: 16px;
+        
+        
+}
+.text--final-index1{
+    font-weight:700;
+    color: #fff;
+    margin-top: 30px;;
+    font-size: 17px;
+}
+.container .agree-parent{
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 160px;
+    align-items:center;
+}
+.agree-section{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+
+
+}
+
+ .agree2-index,
+ .agree1-index{
+    text-decoration: none;
+    width:calc(100%-40px);
+    color: #fff;
+    background-color: #23d593;
+    padding: 11px 16px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    height: 4rem;
+    border-radius: 10px;
+    display: block;
+    font-size:25px;
+    line-height:2.4rem;
+    text-align: center;
+
+}
+.agree2-index:hover,
+.agree1-index:hover{
+    color:yellow;
+    background-color:#23a6d5;
+    
+}
+
+.container-final .hmm,
+.container .hmm{
+    font-weight: 600;
+    font-size:24px;
+    text-decoration: none;
+    margin-top: 200px;;
+
+    color:#fff;
+    font-style: italic;
+
+}
+.fix-spacehaiben{
+    padding: 8px;
+    padding-left:8px;
+
+}
+.img-index3{
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.6s;
+
+}
+.item{
+    margin-top: 15px;
+
+}
+.item:hover .img-index3{
+    opacity: 0.9;
+    cursor: default;
+    margin-top: 3px;;
+    transition: 0.6s;
+}
+
+.footer-index2{
+
+    display: flex;
+    flex-direction: row;
+}
+.footer-index2.hmm{
+    justify-content:flex-end;
+
+}
+.footer-index2.btn-chill{
+    justify-content: flex-end;
+}
+.btn-chill{
+    text-decoration: none;
+    width: calc(100%-40px);
+    flex:end;
+    color: #fff;
+    background-color: #23d593;
+    padding-left: 11px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    height: 2.4rem;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+/* .img-final{
+    max-width: 100%;    
+    max-height: 50%;    
+    background-position: bottom center;
+    background-size: 100%;
+
+} */
+
+.box{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid rgb(255, 108, 243);
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/QQfXQQf.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+}
+/* .footer-final{
+    display: flex;
+    flex-direction: row;
+} */
+.hmm-final{
+    display: flex;
+}
